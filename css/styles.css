@@ -44,10 +44,8 @@ body{
     height: 40px;
 }
 
-}
-
 .heading-primary{
-    color: #fff;
+    color: #fff !important;
     text-transform: uppercase;
     backface-visibility: hidden;
 }
@@ -75,7 +73,17 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.btn{
+    
+}
 
+.btn-white{
+    background-color: #fff;
+    color: #777;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 100px;
+}
 
 /* Animations*/
 
